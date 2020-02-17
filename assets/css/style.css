@@ -1,33 +1,52 @@
-body{
-    font-family: 'Roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 
 /*-----------------------Header---------------*/
-.heading{
-    margin: 0px;
+
+.wrapper{
+    padding: 0px;
+    margin: 0px auto;
+    width: 100%;
+    
+    }
+.container-fluid{
+    width: 100%;
     padding-right: 0px;
     padding-left: 0px;
-    text-align: center;
-}
+    margin-right: auto;
+    margin-left: auto;}
 
-.name{
-    font-family: "Exo" sans-serif;
-    font-weight: 300;
-    letter-spacing: 2px;
+.title{
+    font-family: "Exo", sans-serif;
     text-align: center;
     color: #555555;
-    margin-bottom: 0;
-    border-bottom: 0;
-    padding-top: 50px;
-}
-/*---------------------navbar--------------------------------*/
+    margin: 0px;
+    padding: 0px;}
+
+.jumbotron{
+        padding-top: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+.head-er{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(231, 241, 250);
+    padding-top: 75px;
+    padding-bottom: 25px;
+    text-align: center;
+    }
+    
+/*---------------------navbar----------------------------------------*/
 
 .navbar{
+    padding: 0;
     margin: 0;
-    border: 0;
     width: 100%;
-    background-color: #e2c3c3;
+    color: black;
 }
+
 .navbar .navbar-toggler {
     border: 0;
 }
@@ -38,50 +57,201 @@ body{
 
 .navbar .navbar-nav a{
     font-weight: bold;
+    background-color: #fff;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.navbar-text{
+    font-weight: bold;
 }
 
-/*-----------------------hover.css------------------*/
+.dropdown-divider {
+    margin: 1px;
+}
+
+.dropdown-menu {
+    padding: 0px;
+     
+}
+
+/*-----------------------hover.css-------------*/
 
 .hvr-rectangle-out:before {
-    background-color: rgba(238, 77, 77, 0.5);
+    background-color: rgb(233, 183, 179);
 }
 
-
-/*-----------------------logo--------------- -----*/
-
-.container-fluid{
-    margin: 0;
+/*-----------------------Image1-------------*/
+.logo-image{
+    width: 1000px;
+    height: 400px;;
+    padding: 0;
+    margin: 0px;
 }
+ 
+/*---------------------sub-heading--------------------*/
+.sub-logo{
+       margin: 0px auto;
+       padding: 0px;
+       width: 100%;
+   }
 
-/*-.logo{
-    background: url("../images/innergard.jpg")no-repeat center center;
-    height: 600px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-backgroung-size: cover;
-    background-size: cover;
-    width: 100%;
-}   */
-
-
-       
-/*--------------------sub-heading------------------*/
-.h5{
-    margin: 0;
-}
-
-.uppercase{
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+.sub-headx{
+    font-family: "Exo", sans-serif;
     text-align: center;
-    padding: 15px;
-    color: black;
-     text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 100%;
+    margin: 0px;
+    font-size: 1.0rem;
 }
 
-/*.photo{
-    background: url("../images/mama.jpg");
-    position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
+.img-contact-info{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(231, 233, 235);
+}
+/*---------------------images--------------------*/
+.mamas-pic{
+    width: 700px;
+    height: 700px;
+}
+.contact-info{
+    width: 300px;
+    height: 700px;
+}
+
+.gallery{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(231, 233, 235);}
+
+.sub-images{
+        width: 23vw;
+    height: 250px;
+            
+}
+.mumsuz-pic{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*-----------------------footer---------------*/
+.social-links{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(116, 218, 107);
+    margin: 0px auto;
+    width: 100%;
+}
+.socially{
+    font-family: "Exo" sans-serif;
+    font-size: 30px;
+    }
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0px;
+    margin: 20px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fafafa;
+    line-height: 7px;
+    text-align: center;
+    background-color: rgb(19, 17, 2);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background-color: #ee680e;
+}
+
+.inline-block{
+    padding: 0;
+    white-space: nowrap;
+    overflow: auto;
+    display: inline-block;
+}
+.contact{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 992px) {
+  .wrapper{
+      width: 100%;
+  }
+  .title{
+      width: 100%;
+  } 
+   .logo-image{
+       width: 100%;
+   }
+   .mamas-pic{
+       width: 100%;
+       height: 540px;
+   }
+   .contact-info{
+       width: 100%;
+        height: 540px;
+   }
+   .gallery{
+       width: 100%;
+   }
+   .sub-images{
+       width: 31vw;
+   }
+  }
+
+
+@media screen and (max-width: 600px) {
+    .title{
+      width: 100%;
+      font-size: 1.5rem;
+  } 
+   .logo-image{
+       width: 100%;
+       height: 280px;
+       
+   }
+   .mamas-pic{
+     width: 96vw;
+      height: 495px;
+   }
+
+   .contact-info{
+       width: 100%;
+   }
+   .sub-images{
+       width: 96vw;
+   }
+  }
+
+@media screen and (max-width: 360px) {
+    .title{
+      width: 100%;
+      font-size: 1.5rem;
+  } 
+   .logo-image{
+               width: 100%; 
+               height: 270px;  
+   }
+   .mamas-pic{
+       width: 95vw;
+       height: 424px;
+}
+   
+   .contact-info{
+       width: 100%;
+   }
+   .sub-images{
+              width: 95vw;
+   }
+  }

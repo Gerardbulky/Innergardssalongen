@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 
 /*-----------------------Header---------------*/
@@ -7,8 +9,8 @@
     padding: 0px;
     margin: 0px auto;
     width: 100%;
-    
-    }
+     }
+
 .container-fluid{
     width: 100%;
     padding-right: 0px;
@@ -112,14 +114,10 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: rgb(231, 233, 235);}
+    background-color: rgb(231, 233, 235);
 }
 /*---------------------images--------------------*/
-.mamas-pic{
-    width: 565px;
-    height: 600px;
-    
-}
+
 .contact-info{
     width: 300px;
     height: 600px;
@@ -132,15 +130,19 @@
     background-color: rgb(231, 233, 235);}
 
 .sub-images{
-        width: 23vw;
-    height: 250px;
-            
+    width: 23vw;
+    height: 250px;           
 }
-.mumsuz-pic{
+
+.image-logo{
     width: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
+}
+.mamas-pic{
+    height: 600px;
+    width: 578px;
 }
 /*-----------------------footer---------------*/
 .social-links{

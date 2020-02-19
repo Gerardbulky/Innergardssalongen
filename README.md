@@ -1,15 +1,15 @@
 # INNERGÅRDSSALONGEN
 
-* This is a hair salon website created entirely using Html,Css and boostrap.
+* This is a hair salon website created entirely using Html,Css and Js.
 
-* It contains a title.A dropdown menu content with features such as Home,Prices,Location and About. underneath we have the picture of the proprietor and a zombotron containing contact information,Opening and Closing Hours. furthermore,there is a Gallary and a footer containing her social links.
+* It contains a title.A dropdown menu content with features such as Home,Prices,Location and About. underneath we have the picture of the owner and by the side is the contact information containing,Opening and Closing Hours and address. Below is a Gallary containing pictures of different hairstyles and a footer containing her social links.
 
 ## UX
 
 ### USER'S STORY
 * The user is looking for a salon website that provides contact information about a salon.
 * A website having a gallary of different hair styles offered by the salon.
-* A contact information and booking times about the salon.
+* A contact information and booking times for the salon.
 
 ### OBJECTIVES
 * My objectives for this project is to provide all neccessary informations needed by the user.  
@@ -18,7 +18,7 @@
 * For employers, i would like to provide and extensive information about me.here is a link to my [Linkedin profile](https://www.linkedin.com/in/gerard-ambe-80050b152)  with a possibility of getting in contact with me if neccessary.
 
 ## STRUCTURE
-* I would in this section provide a summary of my project with detail informations to my approaches.  Also would be A link to my Github repositories and Github account.Fristly,Let's begin with a wireframe and later to the actual realisation of the project.
+* I would in this section provide a summary of my project with detail informations to my approaches.  Also would be a link to my Github repositories and Github account.Fristly,Let's begin with a wireframe and later to the actual realisation of the project.
 
 ### SKELETON
 * Here is a pdf wireframe for the project. 
@@ -26,12 +26,12 @@
 
 
 ## FEATURES
-* I incorporated the Navbar Dropdown feature into my site from bootstrap together with [JS](https://getbootstrap.com/docs/4.0/getting-started/introduction/) for my dropdown menu. The navbar is responsive and collapse into a hamburger menu icon at 575px,the size of a mobile version.
+* I incorporated the [Navbar Dropdown menu](https://getbootstrap.com/docs/4.0/components/navbar/) into my site from bootstrap together with [JS link](https://getbootstrap.com/docs/4.0/getting-started/introduction/) for my dropdown menu. The navbar is responsive and collapse into a hamburger menu icon at 575px,the size of a mobile version.
 * I plan on using the signup Form control feature in bootstrap where users can be registered to the site to get discounts or other informations in the future.
 
 
 ### FEATURES LEFT TO IMPLEMENT
- I would like to implement an online booking feature into the site,where users can see for theselves what time is free and what time is already booked without having to call.
+ I would like in the future to implement an online booking feature into the site,where users can see for theselves what time is free and what time is already booked without having to call.
 
  ## TECHNOLOGIES USED
 * Html
@@ -42,8 +42,8 @@
 With this project the user would be able to achieve their goals with the following informations.The Navigation bar contains,
 * Location button,which when clicked will provide the location of the salon to the user.
 * Services button,which when click opens as a dropdown,providing informations to the user about the services rendered and what to expect.
-* A BOOK NOW button which also collapse into the hamburger menu icon on the mobile versions.This provides a contact number to the user when clicked makes a call for a booking appointment.
-* Futhermore there is an image of the owner which takes 50% the size of the screen when viewed on desk top and full width on mobil devices.
+* A BOOK NOW button which also collapse into the hamburger menu icon on the mobile versions at 575px.This contains a BOOK NOW! Button to the user when clicked makes a call for a booking appointment.
+* Futhermore there is an image of the owner which takes 50% the size of the screen when viewed on desk top and full width on mobil devices for users to know who to meet.
 * Contact Informations,provides additional informations obout the opening and closing hours,Location and mobile contact. it takes 50% when viewed on desktops and full width on mobil devices.
 * Gallary,provides a summary of some hairstyles to the users and the profesionality of what to expect.
 * Footer,has social icons which when clicked will open into a new tap because i used (target="_blank"),redirecting the user on other social media websites.
@@ -60,17 +60,17 @@ AT THE DEVELOPEMENT PROCESS
 * git commit -m "Index,css and other pages" index,css and other pages are used as my commit command
 * git push original master. used to push the file to github.
 * open github,chose the repository,click on settings,scroll down to github pages and select Master branch as the publishing source.
-* here is a [link](https://github.com/gerardambe/Innergardssalongen) to the github.
+* here is a [link](https://github.com/gerardambe/Innergardssalongen) to the github and a link to the [website](https://gerardambe.github.io/Innergardssanongen).
 
 ## CREDIT
 
 ### CONTENT 
 
-All the content information was done by me.for example,when hovering on the Navbar content,will give you a Wobble Horizontal effect and the BOOK NOW button also has a GROW effect.the MAKE AN APPOINTMENT has a FORWARD effect when hovering over.
+All the content information was done by me.for example,when hovering on the Navbar content,will give you a Wobble Horizontal effect and the BOOK NOW button also has a GROW effect. The MAKE AN APPOINTMENT has a FORWARD effect when hovering over.
 
-The services menu shows the different services to be expected by the user.The location provides the address location and the book now makes a call.
+The services menu shows the different services to be expected by the user.The location provides the address location and the book now button makes a call.
 
-On the footer,the social links have a hover effect which changes to orange when hovered upon and will redirect the user to other social media websites,which opens into another tab because i used target="_blank".
+On the footer,the social links have a hover effect which changes to orange when hovered upon and will redirect the user to other social media websites,which opens into another tab.
 ### MEDIA 
 
 All the photos used from on this site was given to me by the person from whom i intended building this site for.

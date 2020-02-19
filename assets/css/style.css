@@ -30,11 +30,12 @@ body{
         margin: 0px;
         text-align: center;
     }
+
 .head-er{
     padding: 0;
     margin: 0;
     width: 100%;
-    background-color: rgb(231, 241, 250);
+    background-color: rgb(160, 226, 182);
     padding-top: 75px;
     padding-bottom: 25px;
     text-align: center;
@@ -131,7 +132,7 @@ body{
 
 .sub-images{
     width: 23vw;
-    height: 250px;           
+    height: 233px;           
 }
 
 .image-logo{
@@ -148,7 +149,7 @@ body{
 .social-links{
     padding: 20px;
     text-align: center;
-    background-color: rgba(65, 173, 119, 0.644);
+    background-color: rgb(111, 206, 143);
     margin: 0px auto;
     width: 100%;
 }
@@ -167,7 +168,7 @@ body{
     color: #fafafa;
     line-height: 7px;
     text-align: center;
-    background-color: rgb(19, 17, 2);
+    background-color: rgb(5, 32, 6);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -235,6 +236,7 @@ body{
    }
    .sub-images{
        width: 96vw;
+       height: 276px;
    }
   }
 
@@ -257,5 +259,6 @@ body{
    }
    .sub-images{
               width: 95vw;
+             height: 276px;
    }
   }

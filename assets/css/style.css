@@ -101,11 +101,7 @@ body{
     padding-bottom: 25px;
     width: 100%;
     margin: 0px;
-<<<<<<< HEAD
     font-size: 1.2rem;
-=======
-    font-size: 1.5rem;
->>>>>>> 65aa771160f242631332d61635390730228b70e1
 }
 
 /*---------------------contact-information--------------------*/
@@ -132,16 +128,13 @@ body{
 .sub-images{
     width: 23vw;
     height: 300px;           
-<<<<<<< HEAD
+
 }
 .logo-image{
     width: 1000px;
     height: 400px;;
     padding: 0;
-    margin: 0;
-=======
->>>>>>> 65aa771160f242631332d61635390730228b70e1
-}
+    margin: 0;}
 
 .image-logo{
     width: 100%;

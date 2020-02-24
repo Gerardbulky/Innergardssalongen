@@ -1,9 +1,5 @@
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
-
 /*-----------------------Header---------------*/
+@import url('https://fonts.googleapis.com/css?family=Exo:600i|Roboto&display=swap');
 
 .wrapper{
     padding: 0px;
@@ -101,7 +97,7 @@ body{
     padding-bottom: 25px;
     width: 100%;
     margin: 0px;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
 }
 
 /*---------------------contact-information--------------------*/
@@ -115,7 +111,7 @@ body{
 /*---------------------images--------------------*/
 .img-contact-info{
     width: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     margin: 0;
     background-color: rgb(231, 233, 235);}
 
@@ -125,11 +121,23 @@ body{
     margin: 0px;
     background-color: rgb(231, 233, 235);}
 
-.sub-images{
-    width: 23vw;
-    height: 300px;           
-
+.sub-images1{
+    width: 24.5vw;
+    height: 300px;
 }
+.sub-images2{
+    width: 24.5vw;
+    height: 300px;                   
+}
+.sub-images3{
+    width: 24.5vw;
+    height: 300px;                   
+}
+.sub-images4{
+    width: 24.5vw;
+    height: 300px;                   
+}
+
 .logo-image{
     width: 1000px;
     height: 400px;;
@@ -144,7 +152,30 @@ body{
 }
 .mamas-pic{
     height: 700px;
-    width: 578px;
+    width: 700px;
+}
+.image-1{
+    margin: 0;
+    padding: 0;
+}
+.image-2{
+    margin: 0;
+    padding: 0;
+}
+
+.image-3{
+    margin: 0;
+    padding: 0;
+}
+
+.image-4{
+    margin: 0;
+    padding: 0;
+}
+
+.mums-photo{
+    padding: 0px;
+    margin: 0px;
 }
 /*-----------------------footer---------------*/
 .social-links{
@@ -211,8 +242,21 @@ body{
    .gallery{
        width: 100%;
    }
-   .sub-images{
-       width: 31vw;
+   .sub-images1{
+       width: 32.5vw;
+   }
+   .sub-images2{
+       width: 32.5vw;
+       
+   }
+   .sub-images3{
+       width: 32.5vw;
+   }
+   .sub-images4{
+       width: 32.5vw;
+   }
+   .sub-headx{
+       font-size: 1.9rem;
    }
   }
 
@@ -228,16 +272,31 @@ body{
        
    }
    .mamas-pic{
-     width: 96vw;
+     width: 100vw;
       height: 475px;
    }
 
    .contact-info{
        width: 100%;
    }
-   .sub-images{
-       width: 96vw;
+   .sub-images1{
+       width: 100vw;
        height: 276px;
+   }
+   .sub-images2{
+       width: 100vw;
+       height: 276px;
+   }
+   .sub-images3{
+       width: 100vw;
+       height: 276px;
+   }
+   .sub-images4{
+       width: 100vw;
+       height: 276px;
+   }
+   .sub-headx{
+       font-size: 1.2rem;
    }
   }
 
@@ -251,15 +310,30 @@ body{
                height: 243px;  
    }
    .mamas-pic{
-       width: 95vw;
+       width: 100vw;
        height: 390px;
 }
    
    .contact-info{
        width: 100%;
    }
-   .sub-images{
-              width: 95vw;
+   .sub-images1{
+              width: 100vw;
              height: 276px;
+   }
+   .sub-images2{
+       width: 100vw;
+       height: 276px;
+   }
+   .sub-images3{
+       width: 100vw;
+       height: 276px;
+   }
+   .sub-images4{
+       width: 100vw;
+       height: 276px;
+   }
+   .sub-headx{
+       font-size: 1.0rem;
    }
   }

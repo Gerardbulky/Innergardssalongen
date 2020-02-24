@@ -59,7 +59,7 @@ AT THE DEVELOPEMENT PROCESS
 * git commit -m "Index,css and other pages" index,css and other pages are used as my commit command
 * git push original master. used to push the file to github.
 * open github,chose the repository,click on settings,scroll down to github pages and select Master branch as the publishing source.
-* here is a [link](https://github.com/gerardambe/Innergardssalongen) to the github and a link to the [website](https://gerardambe.github.io/Innergardssanongen).
+* here is a [link](https://github.com/gerardambe/Innergardssalongen) to the github and a link to the [website](https://gerardambe.github.io/innergardssalongen/) 
 
 ## CREDIT
 

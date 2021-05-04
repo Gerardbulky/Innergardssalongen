@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:600i|Roboto&display=swap');
 
 /*-----------------------Header---------------*/
+body{
+    background-color: rgb(246, 255, 240);
+}
 .wrapper{
     padding: 0px;
     margin: 0px auto;
@@ -21,18 +24,14 @@
     margin: 0px;
     padding: 0px;}
 
-.jumbotron{
-        padding-top: 0px;
-        margin: 0px;
-        text-align: center;
-    }
 
-.head-er{
+
+.jumbotron{
     padding: 0;
     margin: 0;
     width: 100%;
     background-color: rgb(160, 226, 182);
-    padding-top: 75px;
+    padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
     }
@@ -79,63 +78,38 @@
 /*-----------------------hover-effect-------------*/
 
 .hvr-rectangle-out:before {
-    background-color: rgb(233, 183, 179);
+    background-color: rgb(179, 233, 182);
 }
 
 
-/*---------------------sub-heading--------------------*/
+/*---------------------sub-heading--------------------
 .sub-logo{
        margin: 0px auto;
        padding: 0px;
        width: 100%;
    }
-
-.sub-headx{
+*/
+.quote{
     font-family: "Exo", sans-serif;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
     width: 100%;
     margin: 0px;
-    font-size: 2.2rem;
 }
 
 /*---------------------contact-information--------------------*/
 
 .contact-info{
-    padding-top: 15px;
+    text-align: center;
+    }
+   /* padding-top: 15px;
     width: 300px;
-    height: 700px;
-}
+    height: 700px; */
 
 /*---------------------images--------------------*/
 .img-contact-info{
-    width: 100%;
-    padding-bottom: 15px;
-    margin: 0;
-    background-color: rgb(231, 233, 235);}
-
-.gallery{
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-color: rgb(231, 233, 235);}
-
-.sub-images1{
-    width: 24.5vw;
-    height: 300px;
-}
-.sub-images2{
-    width: 24.5vw;
-    height: 300px;                   
-}
-.sub-images3{
-    width: 24.5vw;
-    height: 300px;                   
-}
-.sub-images4{
-    width: 24.5vw;
-    height: 300px;                   
+    height: 70%;
 }
 
 .logo-image{
@@ -149,28 +123,6 @@
     margin: 0;
     padding: 0;
     text-align: center;
-}
-.mamas-pic{
-    height: 700px;
-    width: 700px;
-}
-.image-1{
-    margin: 0;
-    padding: 0;
-}
-.image-2{
-    margin: 0;
-    padding: 0;
-}
-
-.image-3{
-    margin: 0;
-    padding: 0;
-}
-
-.image-4{
-    margin: 0;
-    padding: 0;
 }
 
 .mums-photo{
@@ -231,31 +183,18 @@
    .logo-image{
        width: 100%;
    }
-   .mamas-pic{
+   /*.mamas-pic{
        width: 100%;
        height: 530px;
-   }
-   .contact-info{
+   }*/
+   /*.contact-info{
        width: 100%;
         height: 537px;
-   }
+   }*/
    .gallery{
        width: 100%;
    }
-   .sub-images1{
-       width: 32.5vw;
-   }
-   .sub-images2{
-       width: 32.5vw;
-       
-   }
-   .sub-images3{
-       width: 32.5vw;
-   }
-   .sub-images4{
-       width: 32.5vw;
-   }
-   .sub-headx{
+   .quote{
        font-size: 1.9rem;
    }
   }
@@ -271,31 +210,15 @@
        height: 280px;
        
    }
-   .mamas-pic{
+   /*.mamas-pic{
      width: 100vw;
       height: 475px;
-   }
+   }*/
 
-   .contact-info{
+   /*.contact-info{
        width: 100%;
-   }
-   .sub-images1{
-       width: 100vw;
-       height: 276px;
-   }
-   .sub-images2{
-       width: 100vw;
-       height: 276px;
-   }
-   .sub-images3{
-       width: 100vw;
-       height: 276px;
-   }
-   .sub-images4{
-       width: 100vw;
-       height: 276px;
-   }
-   .sub-headx{
+   }*/
+   .quote{
        font-size: 1.2rem;
    }
   }
@@ -309,31 +232,15 @@
                width: 100%; 
                height: 243px;  
    }
-   .mamas-pic{
+   /*.mamas-pic{
        width: 100vw;
        height: 390px;
-}
+}*/
    
-   .contact-info{
+   /*.contact-info{
        width: 100%;
-   }
-   .sub-images1{
-              width: 100vw;
-             height: 276px;
-   }
-   .sub-images2{
-       width: 100vw;
-       height: 276px;
-   }
-   .sub-images3{
-       width: 100vw;
-       height: 276px;
-   }
-   .sub-images4{
-       width: 100vw;
-       height: 276px;
-   }
-   .sub-headx{
+   }*/
+   .quote{
        font-size: 1.0rem;
    }
   }
